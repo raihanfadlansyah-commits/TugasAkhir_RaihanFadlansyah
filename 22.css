@@ -1,0 +1,75 @@
+table,
+tr,
+th,
+td {
+    border: 1px black solid;
+    border-collapse: collapse;
+    text-align: center;
+    width: 1000px;
+    padding: 8px 12px;
+}
+
+td {
+    background: #EFE9E3;
+}
+
+th {
+    background: #C9B59C;
+
+}
+
+.button {
+    background: #EFE9E3;
+    width: 250px;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.background-button {
+    background: #EFE9E3;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+.a {
+    text-decoration: none;
+    background-color: #EFE9E3;
+    color: black;
+    border: 2px black solid;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    transition: 0.2s ease;
+}
+
+.aa {
+    text-decoration: none;
+    background-color: #EFE9E3;
+    color: black;
+    border: 2px black solid;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    transition: padding 0.2s ease;
+}
+
+.aaa {
+    text-decoration: none;
+    background-color: #EFE9E3;
+    color: black;
+    border: 2px black solid;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    transition: 0.2s ease;
+}
+
+a:hover {
+    background-color: white;
+    padding: 10px;
+}   
