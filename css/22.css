@@ -1,0 +1,135 @@
+table,
+tr,
+th,
+td {
+    border: 1px black solid;
+    border-collapse: collapse;
+    width: 1300px;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+td {
+    background: #EFE9E3;
+}
+
+th {
+    background: #C9B59C;
+
+}
+
+.button {
+    background: #EFE9E3;
+    width: 250px;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.background-button {
+    background: #EFE9E3;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+.a {
+    text-decoration: none;
+    background-color: #EFE9E3;
+    color: black;
+    border: 2px black solid;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    transition: 0.2s ease;
+}
+
+.aa {
+    text-decoration: none;
+    background-color: #EFE9E3;
+    color: black;
+    border: 2px black solid;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    transition: padding 0.2s ease;
+}
+
+a:hover {
+    background-color: white;
+    padding: 10px;
+}
+
+body {
+  margin: 32px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C9B59C;
+  border: 1px black solid;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+ul li a:hover {
+  background-color: #EFE9E3;
+}
+
+
+.container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: flex-start;
+        }
+
+        .card {
+            width: 220px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+            background: #fff;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            margin: 10px 0 5px;
+            font-size: 16px;
+        }
+
+        .card p {
+            margin: 3px 0;
+            font-size: 14px;
+        }
+
+        .aksi a {
+            display: inline-block;
+            margin: 5px 3px;
+            text-decoration: none;
+            font-size: 13px;
+        }
